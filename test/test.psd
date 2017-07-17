@@ -1,0 +1,30 @@
+/*
+recursive coding nodes
+*/
+
+/~*
+Mary of England ran
+*~/
+
+((CODING z) (S (CODING-S a:b) (NP (CODING-NP c:d) (N-PR Mary) (PP (P of) (NP (CODING-NP e:f) (N-PR England)))) (VP (V ran))) (ID hanson_1.2))
+
+/~*
+and being discreete and well experimented by their owne long miseryes I doubt
+not but now or very speedily they will repayre all defalts and defects of
+their government employing theime selves to Goddes honour, the profit of our
+afflicted country, and the most advauncement of their owne firme credite and
+estimation. Wherunto the more effectually to move theim I have of dewtifull
+affection and for our common country sake made theime proffer to be partaker
+And so I yet once agayne pray theime to be so many at least as doo complayne
+of lacke or as list ether teache or learne, of what soever we have or shall
+have here.
+(ALLEN,8.001.2)
+*~/
+
+( (CODING ALLEN_001:E2:1579:AUTO:OTHER:WILLIAM_ALLEN:MALE:_:1532:47:RICHARD_HOPKINS:MALE:_:1546?:33?:16%)
+  (NP-CONJ (CODING-NP-CONJ profit:_:_:c:0:z:0:e2:5:7:9)
+           (D the)
+           (N profit)
+           (PP (P of)
+               (NP-POBJ RMV:our_afflicted_country...)))
+  (ID ALLEN,8.001.2))

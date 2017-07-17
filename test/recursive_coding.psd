@@ -1,0 +1,7 @@
+/* recursive coding nodes */
+
+/~*
+Mary of England ran
+*~/
+
+((CODING z) (S (CODING-S a:b) (NP (CODING-NP c:d) (N-PR Mary) (PP (P of) (NP (CODING-NP e:f) (N-PR England)))) (VP (V ran))) (ID hanson_1.2))

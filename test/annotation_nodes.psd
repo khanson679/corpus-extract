@@ -1,0 +1,31 @@
+/*
+Preface
+*/
+
+/~*
+he ran
+*~/
+((S (NP (PRO he)) (VP (V ran))) (ID test1_1))
+
+/~*
+he ran
+*~/
+((S (CODING-S a:b) (NP (PRO he)) (VP (V ran))))
+
+/~*
+he ran
+*~/
+((CODING a:b) (S (NP (PRO he)) (VP (V ran))))
+
+/~*
+he ran
+*~/
+((CODING a:b) (S (CODING-S a:b) (NP (PRO he)) (VP (V ran))) (ID test1_4))
+
+/*
+Footer
+*/
+
+/*
+Summary
+*/
